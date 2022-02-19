@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+   <item
+       android:id="@+id/menu_purchase"
+       android:title="Purchase"
+       app:showAsAction="always"
+       android:icon="@drawable/crown"
+       android:visible="true" />
+
+   <item
+      android:id="@+id/menu_vip"
+      android:visible="false"
+      app:actionLayout="@layout/vip_action_layout"
+      app:showAsAction="always" />
+
+
+<!--   <item-->
+<!--       android:id="@+id/menu_notifications"-->
+<!--       android:icon="@drawable/bell"-->
+<!--       android:title="@string/notifications"-->
+<!--       app:actionLayout="@layout/notification_action_layout"-->
+<!--       app:showAsAction="always" />-->
+
+   <item android:id="@+id/menu_notifications"
+         android:icon="@drawable/bello"
+      app:showAsAction="ifRoom"
+       android:title="@string/notifications"
+      app:actionLayout="@layout/notification_action_layout"/>
+</menu>

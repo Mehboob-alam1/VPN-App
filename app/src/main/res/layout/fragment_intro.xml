@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@color/background"
+   tools:context=".ovpn.activities.IntroActivity">
+
+
+   <androidx.viewpager2.widget.ViewPager2
+       android:id="@+id/viewPager"
+       android:layout_width="0dp"
+       android:layout_height="350dp"
+       android:layout_marginTop="50dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+   </androidx.viewpager2.widget.ViewPager2>
+
+   <me.relex.circleindicator.CircleIndicator3
+       android:id="@+id/indicator"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       app:ci_height="6dp"
+       app:ci_width="6dp"
+       app:ci_drawable="@drawable/dot"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/viewPager" />
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:orientation="vertical"
+       android:padding="16dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/indicator">
+
+      <TextView
+          android:id="@+id/txt1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="By continuing to the app,you agree to our" />
+
+      <TextView
+          android:id="@+id/privacyInnerLayout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="2dp"
+          android:layout_toEndOf="@id/txt1"
+          android:text="Privacy Policy"
+          android:textColor="@color/primary_focused" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_marginEnd="-368dp"
+          android:layout_toStartOf="@+id/termsInnerLayout"
+          android:text="and" />
+
+      <TextView
+          android:id="@+id/termsInnerLayout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/txt1"
+          android:text="Terms of Service"
+          android:textColor="@color/primary_focused" />
+
+   </RelativeLayout>
+
+<!--   <androidx.cardview.widget.CardView-->
+<!--      android:id="@+id/privacyLayout"-->
+
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_marginHorizontal="32dp"-->
+<!--      android:layout_marginBottom="10dp"-->
+<!--      app:cardCornerRadius="20dp"-->
+<!--      app:cardElevation="8dp"-->
+<!--      app:layout_constraintBottom_toTopOf="@id/termsLayout"-->
+<!--      app:layout_constraintEnd_toEndOf="parent"-->
+<!--      app:layout_constraintStart_toStartOf="parent">-->
+
+<!--      <LinearLayout-->
+<!--         android:id="@+id/privacyInnerLayout"-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="match_parent"-->
+<!--         android:background="@drawable/item_country_background"-->
+<!--         android:clickable="true"-->
+<!--         android:focusable="true"-->
+<!--         android:gravity="center"-->
+<!--         android:orientation="horizontal"-->
+<!--         android:padding="8dp">-->
+
+<!--         <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/privacy_policy"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--         <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:layout_width="36dp"-->
+<!--            android:layout_height="36dp"-->
+<!--            app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />-->
+
+<!--      </LinearLayout>-->
+
+<!--   </androidx.cardview.widget.CardView>-->
+
+<!--   <androidx.cardview.widget.CardView-->
+<!--      android:id="@+id/termsLayout"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_marginHorizontal="32dp"-->
+<!--      android:layout_marginBottom="20dp"-->
+<!--      app:cardCornerRadius="20dp"-->
+<!--      app:cardElevation="8dp"-->
+<!--      app:layout_constraintBottom_toTopOf="@id/continueToApp"-->
+<!--      app:layout_constraintEnd_toEndOf="parent"-->
+<!--      app:layout_constraintStart_toStartOf="parent">-->
+
+<!--      <LinearLayout-->
+<!--         android:id="@+id/termsInnerLayout"-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="match_parent"-->
+<!--         android:background="@drawable/item_country_background"-->
+<!--         android:clickable="true"-->
+<!--         android:focusable="true"-->
+<!--         android:gravity="center"-->
+<!--         android:orientation="horizontal"-->
+<!--         android:padding="8dp">-->
+
+<!--         <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/terms_of_service"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--         <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:layout_width="36dp"-->
+<!--            android:layout_height="36dp"-->
+<!--            app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />-->
+
+<!--      </LinearLayout>-->
+
+<!--   </androidx.cardview.widget.CardView>-->
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/close"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textColor="@color/gnt_black"
+       android:layout_marginHorizontal="50dp"
+       android:layout_marginTop="15dp"
+       android:elevation="0dp"
+       android:background="@drawable/close_button_background"
+       android:padding="10dp"
+       android:text="@string/close_app"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/continueToApp" />
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/continueToApp"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="50dp"
+       android:layout_marginTop="35dp"
+       android:textAlignment="center"
+       android:textColor="@color/white"
+       android:background="@drawable/continue_btn_background"
+       android:padding="10dp"
+       android:text="@string/continue_to_app"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <group-->
+<!--        android:id="@+id/group0"-->
+<!--        android:checkableBehavior="single">-->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_servers"
+            android:layout_gravity="center"
+            android:title="@string/servers_list" />
+        <item
+            android:id="@+id/nav_allowed_apps"
+            android:icon="@drawable/ic_baseline_check_circle_24"
+            android:title="@string/allowed_apps" />
+        <item
+            android:id="@+id/nav_dns_prefs"
+            android:icon="@drawable/ic_dns_24"
+            android:title="@string/dns_prefs" />
+<!--    </group>-->
+
+<!--    <group-->
+<!--        android:id="@+id/group1"-->
+<!--        android:checkableBehavior="single">-->
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="@string/privacy_policy"
+            />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_baseline_beenhere_24"
+            android:title="@string/terms_of_service"
+         />
+<!--    </group>-->
+
+<!--    <group-->
+<!--        android:id="@+id/group2"-->
+<!--        android:checkableBehavior="single">-->
+
+                <item
+                      android:checked="true"
+                    android:id="@+id/nav_purchase"
+
+                    android:icon="@drawable/crown"
+                    android:title="@string/subscribe"
+                    />
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/share" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_baseline_thumb_up_24"
+            android:title="@string/rate" />
+<!--    </group>-->
+
+<!--    <group-->
+<!--        android:id="@+id/group3"-->
+
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_notifications"-->
+<!--            android:icon="@drawable/ic_baseline_notifications_24"-->
+
+<!--            android:title="@string/notifications_center" />-->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/settings" />
+
+<!--    </group>-->
+
+
+</menu>

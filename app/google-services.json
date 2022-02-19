@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264034288463",
+    "project_id": "nicvpn-ac722",
+    "storage_bucket": "nicvpn-ac722.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264034288463:android:469407a3aca88f8346bb3a",
+        "android_client_info": {
+          "package_name": "com.nicadevelop.nicavpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264034288463-nrkmn3sohb3l68emtpql0f8o9ve17e7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj2DL8QMcT_huwyy9jTYcgAPI79NZ9BQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264034288463-nrkmn3sohb3l68emtpql0f8o9ve17e7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

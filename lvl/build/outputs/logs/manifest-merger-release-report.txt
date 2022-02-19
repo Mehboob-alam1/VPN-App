@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml:15:1-19:12
+INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml:15:1-19:12
+INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml:15:1-19:12
+	package
+		ADDED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml:16:4-50
+		INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml:15:11-69
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml:18:4-72
+	android:name
+		ADDED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml:18:21-69
+uses-sdk
+INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TeslaX\Documents\Code_WORK\Android\nicvpn\lvl\src\main\AndroidManifest.xml

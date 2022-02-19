@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:padding="8dp">
+
+   <androidx.appcompat.widget.SwitchCompat
+      android:id="@+id/default_pref"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="@string/use_default_dns"
+      app:layout_constraintTop_toTopOf="parent" />
+
+   <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/dns1_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:enabled="false"
+      android:hint="@string/primary_dns"
+      app:layout_constraintTop_toBottomOf="@id/default_pref">
+
+      <com.google.android.material.textfield.TextInputEditText
+         android:id="@+id/dns1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/dns2_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:enabled="false"
+      android:hint="@string/secondary_dns"
+      app:layout_constraintTop_toBottomOf="@id/dns1_layout">
+
+      <com.google.android.material.textfield.TextInputEditText
+         android:id="@+id/dns2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/save"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:background="@drawable/button_background"
+      android:paddingHorizontal="10dp"
+      android:paddingVertical="8dp"
+      android:text="@string/save"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/dns2_layout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

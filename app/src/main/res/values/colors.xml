@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="primary">#1976D2</color>   //#1976D2
+   <color name="primary_focused">#2196F3</color>  //1976D2
+   <color name="accent">#64B5F6</color>    //1976D2
+
+   <color name="background">#FFFF</color>  //#d8d8d8
+   <color name="card_background">#BDBDBD</color>
+
+   <color name="off">#9D9D9D</color>
+   <color name="ic_launcher_background">#0097A7</color> //1EFF29
+
+   <color name="ping_good">#006A39</color>
+   <color name="ping_fair">#FFFFFF00</color>
+   <color name="ping_bad">#FFFF0000</color>
+
+   <color name="text_color">#303030</color>
+
+   <color name="gray">#CCCCCC</color>
+   <color name="dark">#FF1E1E1E</color>
+</resources>

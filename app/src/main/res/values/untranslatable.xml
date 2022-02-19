@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="app_name" translatable="false">NicVPN [Beta]</string>
+
+   <!-- Info below is used is the included Privacy Policy and Terms of Service -->
+   <!-- Support email  -->
+   <string name="support_email" translatable="false">unknowndev2016@gmail.com</string>
+
+   <!-- Developer or company name -->
+   <string name="developer_name" translatable="false">UnknownDev</string>
+
+   <!-- Your website -->
+   <string name="website" translatable="false">jaquemate.com</string>
+
+</resources>

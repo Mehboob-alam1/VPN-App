@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdk compileSDKVersion
+
+    defaultConfig {
+        minSdk minSDKVersion
+        targetSdk targetSDKVersion
+        consumerProguardFiles "consumer-rules.pro"
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+}
